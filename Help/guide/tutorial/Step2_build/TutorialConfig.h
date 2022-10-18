@@ -3,3 +3,4 @@
 #define Tutorial_VERSION_MINOR 0
 
 // TODO 13: use cmakedefine to define MY_MATH
+/* #undef USE_MYMATH */

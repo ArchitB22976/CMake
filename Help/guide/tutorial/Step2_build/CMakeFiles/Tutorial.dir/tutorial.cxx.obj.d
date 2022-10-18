@@ -131,5 +131,4 @@ CMakeFiles/Tutorial.dir/tutorial.cxx.obj: \
  C:/msys64/mingw64/include/c++/12.2.0/bits/ostream.tcc \
  C:/msys64/mingw64/include/c++/12.2.0/istream \
  C:/msys64/mingw64/include/c++/12.2.0/bits/istream.tcc \
- C:/Users/ARCHIT~1.BAL/ONEDRI~1/Github/CMake/Help/guide/tutorial/STEP2_~1/TutorialConfig.h \
- C:/Users/ARCHIT~1.BAL/ONEDRI~1/Github/CMake/Help/guide/tutorial/Step2/MATHFU~1/MathFunctions.h
+ C:/Users/ARCHIT~1.BAL/ONEDRI~1/Github/CMake/Help/guide/tutorial/STEP2_~1/TutorialConfig.h

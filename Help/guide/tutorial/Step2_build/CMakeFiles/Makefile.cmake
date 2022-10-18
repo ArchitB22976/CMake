@@ -29,7 +29,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.24/Modules/Platform/Windows.cmake"
   "C:/Program Files/CMake/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake"
   "C:/Users/archit.bali/OneDrive - Nanyang Technological University/Github/CMake/Help/guide/tutorial/Step2/CMakeLists.txt"
-  "C:/Users/archit.bali/OneDrive - Nanyang Technological University/Github/CMake/Help/guide/tutorial/Step2/MathFunctions/CMakeLists.txt"
   "C:/Users/archit.bali/OneDrive - Nanyang Technological University/Github/CMake/Help/guide/tutorial/Step2/TutorialConfig.h.in"
   "CMakeFiles/3.24.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.24.2/CMakeCXXCompiler.cmake"
@@ -47,11 +46,9 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "TutorialConfig.h"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "MathFunctions/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Tutorial.dir/DependInfo.cmake"
-  "MathFunctions/CMakeFiles/MathFunctions.dir/DependInfo.cmake"
   )
