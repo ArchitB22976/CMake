@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\archit.bali\OneDrive - Nanyang Technological University\Github\CMake\Help\guide\tutorial\Step2_build\CMakeFiles" "C:\Users\archit.bali\OneDrive - Nanyang Technological University\Github\CMake\Help\guide\tutorial\Step2_build\\CMakeFiles\progress.marks"
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
+	cd /d C:\Users\ARCHIT~1.BAL\ONEDRI~1\Github\CMake\Help\guide\tutorial\STEP2_~1 && $(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\archit.bali\OneDrive - Nanyang Technological University\Github\CMake\Help\guide\tutorial\Step2_build\CMakeFiles" "C:\Users\archit.bali\OneDrive - Nanyang Technological University\Github\CMake\Help\guide\tutorial\Step2_build\MathFunctions\\CMakeFiles\progress.marks"
+	cd /d C:\Users\ARCHIT~1.BAL\ONEDRI~1\Github\CMake\Help\guide\tutorial\STEP2_~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MathFunctions/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\archit.bali\OneDrive - Nanyang Technological University\Github\CMake\Help\guide\tutorial\Step2_build\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 clean
+	cd /d C:\Users\ARCHIT~1.BAL\ONEDRI~1\Github\CMake\Help\guide\tutorial\STEP2_~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MathFunctions/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,68 +102,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d C:\Users\ARCHIT~1.BAL\ONEDRI~1\Github\CMake\Help\guide\tutorial\STEP2_~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MathFunctions/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d C:\Users\ARCHIT~1.BAL\ONEDRI~1\Github\CMake\Help\guide\tutorial\STEP2_~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MathFunctions/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\ARCHIT~1.BAL\ONEDRI~1\Github\CMake\Help\guide\tutorial\STEP2_~1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named Tutorial
+# Convenience name for target.
+MathFunctions/CMakeFiles/MathFunctions.dir/rule:
+	cd /d C:\Users\ARCHIT~1.BAL\ONEDRI~1\Github\CMake\Help\guide\tutorial\STEP2_~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MathFunctions/CMakeFiles/MathFunctions.dir/rule
+.PHONY : MathFunctions/CMakeFiles/MathFunctions.dir/rule
 
-# Build rule for target.
-Tutorial: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Tutorial
-.PHONY : Tutorial
-
-# fast build rule for target.
-Tutorial/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tutorial.dir\build.make CMakeFiles/Tutorial.dir/build
-.PHONY : Tutorial/fast
-
-#=============================================================================
-# Target rules for targets named MathFunctions
-
-# Build rule for target.
-MathFunctions: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MathFunctions
+# Convenience name for target.
+MathFunctions: MathFunctions/CMakeFiles/MathFunctions.dir/rule
 .PHONY : MathFunctions
 
 # fast build rule for target.
 MathFunctions/fast:
-	$(MAKE) $(MAKESILENT) -f MathFunctions\CMakeFiles\MathFunctions.dir\build.make MathFunctions/CMakeFiles/MathFunctions.dir/build
+	cd /d C:\Users\ARCHIT~1.BAL\ONEDRI~1\Github\CMake\Help\guide\tutorial\STEP2_~1 && $(MAKE) $(MAKESILENT) -f MathFunctions\CMakeFiles\MathFunctions.dir\build.make MathFunctions/CMakeFiles/MathFunctions.dir/build
 .PHONY : MathFunctions/fast
 
-tutorial.obj: tutorial.cxx.obj
-.PHONY : tutorial.obj
+mysqrt.obj: mysqrt.cxx.obj
+.PHONY : mysqrt.obj
 
 # target to build an object file
-tutorial.cxx.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tutorial.dir\build.make CMakeFiles/Tutorial.dir/tutorial.cxx.obj
-.PHONY : tutorial.cxx.obj
+mysqrt.cxx.obj:
+	cd /d C:\Users\ARCHIT~1.BAL\ONEDRI~1\Github\CMake\Help\guide\tutorial\STEP2_~1 && $(MAKE) $(MAKESILENT) -f MathFunctions\CMakeFiles\MathFunctions.dir\build.make MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.obj
+.PHONY : mysqrt.cxx.obj
 
-tutorial.i: tutorial.cxx.i
-.PHONY : tutorial.i
+mysqrt.i: mysqrt.cxx.i
+.PHONY : mysqrt.i
 
 # target to preprocess a source file
-tutorial.cxx.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tutorial.dir\build.make CMakeFiles/Tutorial.dir/tutorial.cxx.i
-.PHONY : tutorial.cxx.i
+mysqrt.cxx.i:
+	cd /d C:\Users\ARCHIT~1.BAL\ONEDRI~1\Github\CMake\Help\guide\tutorial\STEP2_~1 && $(MAKE) $(MAKESILENT) -f MathFunctions\CMakeFiles\MathFunctions.dir\build.make MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.i
+.PHONY : mysqrt.cxx.i
 
-tutorial.s: tutorial.cxx.s
-.PHONY : tutorial.s
+mysqrt.s: mysqrt.cxx.s
+.PHONY : mysqrt.s
 
 # target to generate assembly for a file
-tutorial.cxx.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tutorial.dir\build.make CMakeFiles/Tutorial.dir/tutorial.cxx.s
-.PHONY : tutorial.cxx.s
+mysqrt.cxx.s:
+	cd /d C:\Users\ARCHIT~1.BAL\ONEDRI~1\Github\CMake\Help\guide\tutorial\STEP2_~1 && $(MAKE) $(MAKESILENT) -f MathFunctions\CMakeFiles\MathFunctions.dir\build.make MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.s
+.PHONY : mysqrt.cxx.s
 
 # Help Target
 help:
@@ -174,10 +162,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... MathFunctions
-	@echo ... Tutorial
-	@echo ... tutorial.obj
-	@echo ... tutorial.i
-	@echo ... tutorial.s
+	@echo ... mysqrt.obj
+	@echo ... mysqrt.i
+	@echo ... mysqrt.s
 .PHONY : help
 
 
@@ -189,6 +176,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\ARCHIT~1.BAL\ONEDRI~1\Github\CMake\Help\guide\tutorial\STEP2_~1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
