@@ -136,7 +136,8 @@ CMakeFiles/Tutorial.dir/tutorial.cxx.obj: C:/Users/archit.bali/OneDrive\ -\ Nany
   C:/msys64/mingw64/include/c++/12.2.0/bits/basic_ios.tcc \
   C:/msys64/mingw64/include/c++/12.2.0/bits/ostream.tcc \
   C:/msys64/mingw64/include/c++/12.2.0/istream \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/istream.tcc
+  C:/msys64/mingw64/include/c++/12.2.0/bits/istream.tcc \
+  TutorialConfig.h
 
 
 C:/msys64/mingw64/include/c++/12.2.0/clocale:
@@ -410,3 +411,5 @@ C:/msys64/mingw64/include/c++/12.2.0/bits/ostream.tcc:
 C:/msys64/mingw64/include/c++/12.2.0/istream:
 
 C:/msys64/mingw64/include/c++/12.2.0/bits/istream.tcc:
+
+TutorialConfig.h:
