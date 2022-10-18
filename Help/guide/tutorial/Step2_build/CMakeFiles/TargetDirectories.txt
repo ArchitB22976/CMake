@@ -1,0 +1,3 @@
+C:/Users/archit.bali/OneDrive - Nanyang Technological University/Github/CMake/Help/guide/tutorial/Step2_build/CMakeFiles/Tutorial.dir
+C:/Users/archit.bali/OneDrive - Nanyang Technological University/Github/CMake/Help/guide/tutorial/Step2_build/CMakeFiles/edit_cache.dir
+C:/Users/archit.bali/OneDrive - Nanyang Technological University/Github/CMake/Help/guide/tutorial/Step2_build/CMakeFiles/rebuild_cache.dir
