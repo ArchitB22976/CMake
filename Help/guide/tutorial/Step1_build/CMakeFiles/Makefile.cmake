@@ -29,6 +29,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.24/Modules/Platform/Windows.cmake"
   "C:/Program Files/CMake/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake"
   "C:/Users/archit.bali/OneDrive - Nanyang Technological University/Github/CMake/Help/guide/tutorial/Step1/CMakeLists.txt"
+  "C:/Users/archit.bali/OneDrive - Nanyang Technological University/Github/CMake/Help/guide/tutorial/Step1/TutorialConfig.h.in"
   "CMakeFiles/3.24.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.24.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.24.2/CMakeRCCompiler.cmake"
@@ -43,6 +44,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "TutorialConfig.h"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
