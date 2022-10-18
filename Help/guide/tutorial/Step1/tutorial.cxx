@@ -5,6 +5,7 @@
 #include <string>
 
 // TODO 11: Include TutorialConfig.h
+#include "TutorialConfig.h"
 
 int main(int argc, char* argv[])
 {
