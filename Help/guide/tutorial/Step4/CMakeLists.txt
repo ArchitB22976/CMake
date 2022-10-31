@@ -8,13 +8,15 @@ project(Tutorial VERSION 1.0)
 # TODO 1: Replace the following code by:
 # * Creating an interface library called tutorial_compiler_flags
 #   Hint: use add_library() with the INTERFACE signature
+add_library(TUTORIAL_COMPILER_FLAGS INTERFACE)
 # * Add compiler feature cxx_std_11 to tutorial_compiler_flags
 #   Hint: Use target_compile_features()
+target_compile_features(TUTORIAL_COMPILER_FLAGS INTERFACE
+                        cxx_std_11
+                        )
+
 
 # specify the C++ standard
-set(CMAKE_CXX_STANDARD 11)
-set(CMAKE_CXX_STANDARD_REQUIRED True)
-
 # TODO 5: Create helper variables to determine which compiler we are using:
 # * Create a new variable gcc_like_cxx that is true if we are using CXX and
 #   any of the following compilers: ARMClang, AppleClang, Clang, GNU, LCC

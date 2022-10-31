@@ -15,7 +15,6 @@ option(USE_MYMATH "Use tutorial provided math implementation" ON)
 configure_file(TutorialConfig.h.in TutorialConfig.h)
 
 # TODO 2: Remove EXTRA_INCLUDES list
-
 # add the MathFunctions library
 if(USE_MYMATH)
   add_subdirectory(MathFunctions)
@@ -36,3 +35,7 @@ target_include_directories(Tutorial PUBLIC
                            "${PROJECT_BINARY_DIR}"
                           #  ${EXTRA_INCLUDES}
                            )
+target_include_directories(MathFunctions
+                            INTERFACE 
+                            ${CMAKE_CURRENT_SOURCE_DIR}
+                          )
